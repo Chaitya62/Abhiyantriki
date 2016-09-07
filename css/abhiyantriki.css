@@ -361,7 +361,7 @@ div {
   background: transparent;
   margin-right: 4%;
   z-index: 1000;
-  width: 12%;
+  width: 11%;
   height: auto;
   cursor: pointer;
   float: right;
@@ -391,24 +391,6 @@ div {
 #social-icons-li img {
   display: inline;
   height: 100%;
-}
-
-.social-footer {
-  width: 40%;
-  height: 5vh;
-}
-
-.social-footer a {
-  position: absolute;
-  float: left;
-  width: 25%;
-  height: 5vh;
-}
-
-.social-footer a img {
-  position: absolute;
-  width: 100%;
-  height: 8vh;
 }
 
 .social {
@@ -755,7 +737,7 @@ body {
 }
 
 #featured3 .card {
-  background: #f39c12;
+  background: #3498db;
 }
 
 #featured4 .card {
@@ -772,6 +754,7 @@ body {
 .modal-header h4 {
   height: 35vh;
   width: 100%;
+  padding: 20px;
 }
 
 #Internship .modal-header {
@@ -801,7 +784,7 @@ body {
 }
 
 #TechShield .modal-header h4 {
-  background-color: rgba(243, 156, 18, 0.6);
+  background-color: rgba(52, 152, 219, 0.6);
 }
 
 #BTG .modal-header {
@@ -1350,6 +1333,10 @@ h1 {
   display: inline-block;
 }
 
+.social-footer {
+  transform: translate(-81vw, 1vh);
+}
+
 @media (min-width: 320px) and (max-width: 550px) {
   .about-container {
     display: none;
@@ -1462,6 +1449,32 @@ h1 {
   }
   .about-section {
     display: none;
+  }
+  footer {
+    margin-top: -17%;
+    height: 21vh;
+  }
+  footer .social-footer {
+    width: 100%;
+    margin-left: 46px;
+  }
+  footer .row {
+    width: 100%;
+  }
+  footer .social-icons-container {
+    display: flex;
+    width: 100%;
+  }
+  .social-footer {
+    transform: translate(0, 0);
+    display: flex;
+    display: -webkit-flex;
+    padding: 10px;
+  }
+  #Webteam {
+    margin-top: 12px;
+    margin-right: 50px;
+    font-size: 12px;
   }
   .social-icons-li a img {
     position: absolute;

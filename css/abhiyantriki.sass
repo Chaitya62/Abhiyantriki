@@ -279,7 +279,7 @@ div
 	background: transparent
 	margin-right: 4%
 	z-index: 1000
-	width: 12%
+	width: 11%
 	height: auto
 	cursor: pointer
 	float:right
@@ -307,18 +307,18 @@ div
 	height: 100%
 	
 
-.social-footer
-	width: 40%
-	height: 5vh
-	& a
-		position: absolute
-		float: left
-		width: 25%
-		height: 5vh
-	& a img
-		position: absolute
-		width: 100%
-		height: 8vh
+// .social-footer
+// 	width: 40%
+// 	height: 5vh
+// 	& a
+// 		position: absolute
+// 		float: left
+// 		width: 25%
+// 		height: 5vh
+// 	& a img
+// 		position: absolute
+// 		width: 100%
+// 		height: 8vh
 	
 
 
@@ -672,7 +672,7 @@ body
 	background: $featured
 
 #featured3 .card
-	background: $featured
+	background: $Shield
 
 #featured4 .card
 	background: $featured
@@ -689,6 +689,7 @@ body
 .modal-header h4
 	height: 35vh
 	width: 100%
+	padding: 20px
 	
 	
 
@@ -724,7 +725,7 @@ body
 		size: cover
 	h4
 		background:
-			color: rgba($featured,0.6)
+			color: rgba($Shield,0.6)
 
 
 #BTG .modal-header
@@ -1277,6 +1278,10 @@ h1
 	display: inline-block; 
 	//transform: translateY(-4vh);
 
+.social-footer
+	transform: translate(-81vw,1vh);
+	// width: 13%
+
 @media (min-width: 320px) and (max-width: 550px)
 	.about-container
 		display:  none
@@ -1284,6 +1289,10 @@ h1
 @media (min-width: 320px) and (max-width: 550px)
 
 
+	
+	
+
+	
 
 
 	#parvaah-logo
@@ -1384,9 +1393,11 @@ h1
 		
 	.social-icons-container
 		display: none
+
 	.social-left,.social-right	
 		display: flex;
-		display: -webkit-flex
+
+		display: -webkit-flex;
 	.social-left
 		position: relative
 		float: left
@@ -1400,8 +1411,32 @@ h1
 	.about-section
 		display: none
 
+	footer
+		margin-top: -17%;
+		height: 21vh;
+		// margin-top: -17%
 
-	
+		& .social-footer
+			width: 100%
+			margin-left: 46px
+		& .row
+			width: 100%
+		& .social-icons-container
+			display: flex
+			width: 100%
+
+
+	.social-footer
+		transform: translate(0,0);
+		display: flex
+		display: -webkit-flex
+		padding: 10px
+
+
+	#Webteam
+		margin-top: 12px;
+		margin-right: 50px;
+		font-size: 12px
 	
 
 
