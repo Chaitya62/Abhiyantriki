@@ -1072,7 +1072,6 @@ li:nth-child(4) .collapsible-header {
 .modal-text {
   padding: 10px;
   max-height: 50vh;
-  overflow-y: auto;
 }
 
 .modal .tab {
