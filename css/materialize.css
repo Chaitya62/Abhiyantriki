@@ -4804,6 +4804,20 @@ small {
 
 .tabs .tab a {
   /*color: #ee6e73;*/
+
+  color: white ;
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  transition: color .28s ease;
+}
+
+
+.tabs .tab a .active {
+  /*color: #ee6e73;*/
+  background: grey;
   color: white ;
   display: block;
   width: 100%;
@@ -7422,7 +7436,7 @@ input[type=range]:focus::-ms-fill-upper {
 }
 
 .slider .indicators .indicator-item.active {
-  background-color: #4CAF50;
+  background-color: #fc3565;
 }
 
 .carousel {
