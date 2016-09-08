@@ -1255,6 +1255,10 @@ a.active {
   max-width: 66%;
 }
 
+#lastYear .container .box .row, #thisYear .container .box .row {
+  overflow-x: hidden;
+}
+
 #lastYear .container .box h6, #thisYear .container .box h6 {
   font-weight: 900;
 }
@@ -1363,6 +1367,11 @@ p {
 
 h1 {
   font-size: 7vw;
+}
+
+.parvah p {
+  padding-top: 20px;
+  margin-top: 6%;
 }
 
 #college-name {
@@ -1515,6 +1524,12 @@ h1 {
   }
   .social-icons-li a img {
     position: absolute;
+  }
+  .parvah p {
+    font-size: 13px;
+    padding: 12px;
+    margin-left: 5%;
+    margin-top: 0%;
   }
 }
 
