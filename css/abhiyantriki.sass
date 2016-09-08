@@ -210,7 +210,7 @@ div
 		position: fixed
 		right: 0
 		bottom: 0
-		z-index: 1000
+		z-index: 100
 		padding: 10px
 		.up-arrow
 			display: flex
@@ -343,10 +343,10 @@ div
 		display:flex;
 		display: -webkit-flex
 		flex-direction: row
-		z-index: -1
+		z-index: 1000
 #social-right
 	 	float: right
-	 	z-index: -1
+	 	z-index: 1000
 
 .social-mobile-left
 	position: relative
@@ -357,6 +357,16 @@ div
 	z-index: -1
 .social-mobile-right
 	@extend .social-mobile-left
+
+
+#social-icons-mobile a:after 
+	  content: ""; 
+	  position: absolute; 
+	  top: 0; 
+	  right: 0; 
+	  bottom: 0; 
+	  left: 0;
+
 
 
 .arrow-container
@@ -1142,7 +1152,9 @@ a.active
 	width: 100%
 	background: white
 	+transition(all 1s ease-in-out)
-	
+
+
+
 	
 #lastYear .container,#thisYear .container
 	//padding: 10%
@@ -1161,7 +1173,7 @@ a.active
 		//margin-bottom: 2%
 		//margin-right: 10%
 		& img
-			max-width: 100%
+			max-width: 66%
 			//display: block
 			//width: 60%
 			//height: 10vh
@@ -1200,7 +1212,12 @@ a.active
 	cursor: pointer
 	& .l 
 		display: none 
-		
+
+
+
+#otherpartner img
+	width: 20% !important
+	//height: 20vh
 
 
 .box 
@@ -1375,7 +1392,7 @@ h1
 	.brand-logo
 		display: block
 		position: relative
-		z-index: 1000
+		z-index: -1
 
 
 	#abhiyantriki-logo

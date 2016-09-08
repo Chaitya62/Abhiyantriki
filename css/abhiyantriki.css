@@ -184,7 +184,7 @@ div {
   position: fixed;
   right: 0;
   bottom: 0;
-  z-index: 1000;
+  z-index: 100;
   padding: 10px;
 }
 
@@ -412,12 +412,12 @@ div {
   display: flex;
   display: -webkit-flex;
   flex-direction: row;
-  z-index: -1;
+  z-index: 1000;
 }
 
 #social-right {
   float: right;
-  z-index: -1;
+  z-index: 1000;
 }
 
 .social-mobile-left, .social-mobile-right {
@@ -427,6 +427,15 @@ div {
   display: flex;
   display: -webkit-flex;
   z-index: -1;
+}
+
+#social-icons-mobile a:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
 }
 
 .arrow-container {
@@ -1243,7 +1252,7 @@ a.active {
 }
 
 #lastYear .container .box img, #thisYear .container .box img {
-  max-width: 100%;
+  max-width: 66%;
 }
 
 #lastYear .container .box h6, #thisYear .container .box h6 {
@@ -1281,6 +1290,10 @@ a.active {
 
 .viewMore .l {
   display: none;
+}
+
+#otherpartner img {
+  width: 20% !important;
 }
 
 .box {
@@ -1413,7 +1426,7 @@ h1 {
   .brand-logo {
     display: block;
     position: relative;
-    z-index: 1000;
+    z-index: -1;
   }
   #abhiyantriki-logo {
     position: relative;
