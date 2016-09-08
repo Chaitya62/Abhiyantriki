@@ -643,6 +643,10 @@ div {
   background: rgba(41, 128, 185, 0.6);
 }
 
+.modal-footer .row .col {
+  padding: 0 !important;
+}
+
 body {
   background-color: black;
   overflow-x: hidden;
@@ -861,6 +865,16 @@ body {
   background-color: rgba(142, 68, 173, 0.6);
 }
 
+#TakeshisCastle .modal-header {
+  background-image: url("../assets/images/events/TakeshisCastle.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#TakeshisCastle .modal-header h4 {
+  background-color: rgba(142, 68, 173, 0.6);
+}
+
 #TechHunt .modal-header {
   background-image: url("../assets/images/events/tech_hunt_i.jpeg");
   background-position: center;
@@ -889,6 +903,16 @@ body {
 
 #FIFAManager .modal-header h4 {
   background-color: rgba(142, 68, 173, 0.6);
+}
+
+#Pokemon .modal-header {
+  background-image: url("../assets/images/events/pokemon.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#Pokemon .modal-header h4 {
+  background-color: rgba(39, 174, 96, 0.6);
 }
 
 #VrBooth .modal-header {
