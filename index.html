@@ -38,7 +38,24 @@
   width: 100%;
   height: 100%;
   z-index: 9999;
+  background: url('assets/images/loadu2.gif') 50% 50% no-repeat black;
+  background-size: contain;
+}
+
+
+@media (min-width: 320px) and (max-width: 550px) {
+
+    .loader  img{
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 40%;
+  height: 30vh;
+  z-index: 9999;
   background: url('assets/images/loadu2.gif') 50% 50% no-repeat black
+}
+
+
 }
 ul .tabs li .tab a .active {
   /*color: #ee6e73;*/
@@ -3762,7 +3779,7 @@ Set in the heart of the city, K. J. Somaiya College of Engineering is located in
         //Generic swipe handler for all directions
         swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
           if(direction == "up"){
-            alert(duration);
+            // alert(duration);
             goDown();
             return false;
 
