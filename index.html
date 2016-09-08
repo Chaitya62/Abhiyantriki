@@ -3773,33 +3773,33 @@ Set in the heart of the city, K. J. Somaiya College of Engineering is located in
     <script type="text/javascript" src="js/jquery.touchSwipe.min.js"></script>
                 <script type="text/javascript">
                   // $(document).ready(function(){});
-                 $(function() {      
-      //Enable swiping...
-      $(window).swipe( {
-        //Generic swipe handler for all directions
-        swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
-          if(direction == "up"){
-            // alert(duration);
-            goDown();
-            return false;
+    //              $(function() {      
+    //   //Enable swiping...
+    //   $(window).swipe( {
+    //     //Generic swipe handler for all directions
+    //     swipe:function(event, direction, distance, duration, fingerCount, fingerData) {
+    //       if(direction == "up" ){
+    //         // alert(duration);
+    //         goDown();
+    //         return false;
 
-          } 
-          else if(direction == "down"){
-            goUp();
-            return false;
+    //       } 
+    //       else if(direction == "down"){
+    //         goUp();
+    //         return false;
 
-          }
-          else if(direction == "left"){
-            $('#mobile-demo').addClass('open');
-          }
-          else if(direction == "right"){
-            $('#mobile-demo').removeClass('open');
-          }
-        }, allowPageScroll:"vertical"
-        //Default is 75px, set to 0 for demo so any distance triggers swipe
-         // threshold: 
-      });
-    });
+    //       }
+    //       else if(direction == "left"){
+    //         $('#mobile-demo').addClass('open');
+    //       }
+    //       else if(direction == "right"){
+    //         $('#mobile-demo').removeClass('open');
+    //       }
+    //     }, allowPageScroll:"vertical"
+    //     //Default is 75px, set to 0 for demo so any distance triggers swipe
+    //      // threshold: 
+    //   });
+    // });
                
 
 
