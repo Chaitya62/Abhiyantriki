@@ -975,6 +975,16 @@ body {
   background-color: rgba(26, 188, 156, 0.6);
 }
 
+#SixthSense .modal-header {
+  background-image: url("../assets/images/events/sixth_sense_p.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+#SixthSense .modal-header h4 {
+  background-color: rgba(26, 188, 156, 0.6);
+}
+
 #SCMU .modal-header {
   background-image: url("../assets/images/events/scmu_kjsce_open_16_p.jpg");
   background-position: center;
@@ -1525,8 +1535,11 @@ h1 {
   .social-icons-li a img {
     position: absolute;
   }
+  .container-cards > span {
+    font-size: 8px;
+  }
   .parvah p {
-    font-size: 13px;
+    font-size: 12px;
     padding: 12px;
     margin-left: 5%;
     margin-top: 0%;

@@ -141,6 +141,7 @@ function scrollDownTo(t){
           case 4:
            			scrollT = 4;
 	          	 	arrow_down.css("display",disp);
+                $('.slider').slider('start');
 	             	html.animate({scrollTop: $('.tech-expo').offset().top -offset_s}, 1000);
 	             	current.css("display","none");
 	           		current = aboutChild;
